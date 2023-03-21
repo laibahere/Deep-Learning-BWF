@@ -27,7 +27,6 @@ print('Updated Set:', numbers)
 #updated python sets
 companies = {'Lacoste', 'Ralph Lauren'}
 tech_companies = ['Apple', 'Google', 'OpenAI']
-
 companies.update(tech_companies)
 print(companies)
 
@@ -35,8 +34,5 @@ print(companies)
 
 tech_Companies={'OpenAI', 'Apple', 'Lenovo', 'Samgsung', 'Google'}
 print('Initial Set:',tech_Companies)
-
-# remove 'Java' from a set
 removedValue = tech_Companies.discard('Apple')
-
 print('Set after remove():', tech_Companies)
