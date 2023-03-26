@@ -30,8 +30,8 @@ class Restaurant:
         print(f"{self.restaurant_name} is now open!")
 
 restaurant1 = Restaurant("Pizza Place", "Italian")
-restaurant2 = Restaurant("Taco Spot", "Mexican")
-restaurant3 = Restaurant("Sushi Shack", "Japanese")
+restaurant2 = Restaurant("Mc Donalds", "American")
+restaurant3 = Restaurant("Burger Clock", "English")
 
 restaurant1.describe_restaurant()
 restaurant2.describe_restaurant()
@@ -51,9 +51,9 @@ class User:
     def greet_user(self):
         print(f"Hello, {self.first_name} {self.last_name}! How are you doing today?")
 
-user1 = User("John", "Doe", 35, "New York")
-user2 = User("Jane", "Smith", 27, "Los Angeles")
-user3 = User("Bob", "Johnson", 42, "Chicago")
+user1 = User("John", "Lee", 35, "New York")
+user2 = User("Jane", "Austen", 27, "Los Angeles")
+user3 = User("Bob", "Marley", 42, "Chicago")
 
 user1.describe_user()
 user1.greet_user()
@@ -118,7 +118,7 @@ class User:
         self.login_attempts = 0
 
 
-user = User("John", "Doe", 30, "New York", "USA")
+user = User("John", "Lee", 30, "New York", "USA")
 user.increment_login_attempts()
 user.increment_login_attempts()
 user.increment_login_attempts()
