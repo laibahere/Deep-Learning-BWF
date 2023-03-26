@@ -1,0 +1,29 @@
+from random import randint
+
+class Die:
+    def __init__(self, sides=6):
+        self.sides = sides
+        
+    def roll_die(self):
+        print(randint(1, self.sides))
+    # Create a 6-sided die
+die6 = Die()
+
+# Roll the 6-sided die 10 times
+for i in range(10):
+    die6.roll_die()
+
+# Create a 10-sided die
+die10 = Die(10)
+
+# Roll the 10-sided die 10 times
+for i in range(10):
+    die10.roll_die()
+
+# Create a 20-sided die
+die20 = Die(20)
+
+# Roll the 20-sided die 10 times
+for i in range(10):
+    die20.roll_die()
+
