@@ -14,4 +14,4 @@ This repositories is created because of My fellowship for Bytewise. IT will cont
 
 
 ### Task
-+ task1(#https://github.com/laibahere/Deep-Learning-BWF/tree/main/task1_2)
++ [task1](https://github.com/laibahere/Deep-Learning-BWF/tree/main/task1_2)
