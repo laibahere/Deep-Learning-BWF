@@ -1,1 +1,18 @@
+import numpy as np 
 
+#Broadcast: The term broadcasting refers to the ability of NumPy to treat arrays of different shapes during arithmetic operations
+
+# Example : Array of same shape
+a= np.array([1,2,3,4])
+b= np.array([10,20,30,40])
+c = a*b 
+print(c)
+
+# ARRAY OF DIFFERENT SHAPE
+d = np.array([[0.0, 0.0, 0.0], [10.0, 10.0, 10.0], [20.0, 20.0, 20.0], [30.0, 30.0, 30.0]])
+e = np.array([1.0, 2.0, 3.0])
+f = d + e
+
+print('First array:\n', d)
+print('Second array:\n', e)
+print('First array + Second array:\n', f)
